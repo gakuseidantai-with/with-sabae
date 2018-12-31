@@ -8,7 +8,7 @@
 	<div id="loader-bg">
 			<div id="loading">
 					<img id="__center" src="images/loader.gif">
-					<p id="loading_text">Now loading......</p>
+					<p id="loading_text">読み込み中です...。</p>
 			</div>
 	</div>
 	<div id="main-contents">
