@@ -12,19 +12,22 @@
 		<div class="login content">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 col-xs-12">
 <?php if (!is_empty($error)) { ?>
-						<div class="alert alert-danger alert-dismissible" role="alert">
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<?php echo $error; ?>
-						</div>
+				<div class="alert alert-danger alert-dismissible" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<?php echo $error; ?>
+				</div>
 <?php } ?>
 <?php if (!is_empty($success)) { ?>
-						<div class="alert alert-success alert-dismissible" role="alert">
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<?php echo $success; ?>
-						</div>
+				<div class="alert alert-success alert-dismissible" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<?php echo $success; ?>
+				</div>
 <?php } ?>
+				<div class="col-md-6 col-xs-12" style="margin-top: 50px;">
+					<img src="/images/with_logo.png" width="100%">
+				</div>
+				<div class="col-md-6 col-xs-12">
 					<div class="panel text-center">
 						<div class="panel-body">
 							<h4 class="title padding-bottom-lg">ログイン</h4>
